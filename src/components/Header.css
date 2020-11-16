@@ -1,0 +1,27 @@
+header{
+    width: 100vw;
+    height: 70px;
+    overflow: hidden;
+    margin: 0;
+    background: #5E403A;
+}
+
+nav#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;    
+    transition: 0.4s;
+    padding-right: 20px;
+}
+
+nav#navbar div {
+    display: block;
+    margin-left: 40px;
+}
+
+nav#navbar img {
+    width: 75px;  
+    height: auto;
+}

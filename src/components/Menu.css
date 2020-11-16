@@ -1,0 +1,26 @@
+nav#navbar ul a {
+    text-decoration: none;
+    color:  #FFF;
+    padding: 10px 30px;
+    border-radius: 6.5px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+nav#navbar ul a:hover {
+    color: white;
+    background-color:  #3D2122;
+}
+
+ul {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li.header {    
+    list-style-type: none;    
+    text-align: center;    
+}

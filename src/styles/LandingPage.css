@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+#LandingPage{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#container{
+    width: 100%;
+    height: calc(100% - 70px);
+    background-image: url(../images/fundo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    opacity: 0.9;
+}
+
+#texto{
+    max-width: 500px;
+    text-align: center;
+    background: #3D2122;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+#texto h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20pt;
+}

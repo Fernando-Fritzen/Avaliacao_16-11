@@ -1,0 +1,11 @@
+#pagina{
+    height: 100vh;
+}
+
+#mensagem{
+    height: calc(100% - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3D141A;
+}
