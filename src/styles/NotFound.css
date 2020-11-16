@@ -1,0 +1,10 @@
+#NotFound{
+    height: 100vh;
+}
+
+#mensagemErro{
+    height: calc(100% - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

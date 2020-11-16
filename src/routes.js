@@ -1,6 +1,7 @@
 import React from 'react';
 import LandingPage from './pages/LandingPage';
 import Paginas from './pages/Paginas';
+import NotFound from './pages/NotFound';
 
 import { Switch, Route } from 'react-router-dom';
 
@@ -12,6 +13,7 @@ function Routes(){
             <Route path="/bebidas" component={Paginas} />
             <Route path="/sobre" component={Paginas} />
             <Route path="/contato" component={Paginas} />
+            <Route path="/*" component={NotFound} />
 
         </Switch>
     );
