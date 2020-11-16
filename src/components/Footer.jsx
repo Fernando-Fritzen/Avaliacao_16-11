@@ -10,12 +10,12 @@ function Footer() {
       <footer>
           <ul className="footer">
             <li className="footer">fernandofritzen9@gmail.com</li>
-            <li className="footer">josedacunha@gmail.com</li>
+            <li className="footer">finanbibs@gmail.com</li>
           </ul>
 
           <ul className="footer">
-            <li className="footer">(45) 998337940</li>
-            <li className="footer">(45) 998223852</li>
+            <li className="footer">(45) 99364792</li>
+            <li className="footer">(45) 998256892</li>
           </ul>
 
           <ul id="contato" className="footer">
